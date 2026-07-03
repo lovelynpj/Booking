@@ -3,26 +3,29 @@
 :root {
 --bg:                    #071A16; /*--Fondo principal	Verde muy oscuro*/	
 --bg-secundario:         #0B241D; /*--Fondo secundario	Verde oscuro*/	
---Tarjeta:               #102C24; /*--Tarjetas Cards	Verde grisáceo*/	
---Sidebar-color:         #081D18; /*--Sidebar	Verde profundo*/	
---Bordes:                #1D4A3E; /*--Bordes	Verde oscuro*/	
+--tarjeta:               #102C24; /*--Tarjetas Cards	Verde grisáceo*/	
+--sidebar-color:         #081D18; /*--Sidebar	Verde profundo*/	
+--bordes:                #1D4A3E; /*--Bordes	Verde oscuro*/	
 --Text-color:            #F5F5F5; /*--Texto principal	Blanco*/	
 --Text-secundario:       #A6B3AD; /*--Texto secundario	Gris claro*/	
 --Text-deshabilitado:    #68746F; /*--Texto deshabilitado	Gris oscuro*/	
 --Color-principal:       #FF7A00; /*--Naranja principal*/		
---Naranja-hover:         #FF922E; /*--Naranja hover*/		
---Naranja-oscuro:        #D86400; /*--Naranja oscuro pressed*/		
+--hover-naranja:         #FF922E; /*--Naranja hover*/		
+--naranja-oscuro:        #D86400; /*--Naranja oscuro pressed*/		
 --Exito:                 #22C55E; /*--Éxito*/		
 --Advertencia:           #FACC15; /*--Advertencia*/		
 --Error:                 #EF4444; /*--Error*/	
 --Informacion:           #3B82F6; /*--Información*/	 
 }
 
+.geist-pixel-uniquifier> {
+  font-family: "Geist Pixel", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "ELSH" 0;
+}
 body {
-  font-family: var(poner fuente aca);
-  background-color: var(--bg);
-  color: var(--Text-color);
-  min-height: 100dvh;
-  overflow-x: hidden;
-  position: relative;
+    background-color: var(--bg);
 }

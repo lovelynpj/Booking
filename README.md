@@ -33,3 +33,11 @@ Parciales
 Recordatorios
 Resúmenes
 PDFs
+-------------------------------------------
+Secciones por hacer y quien las hace: 
+inicio (Pedro)
+Materias
+Tareas
+Horarios
+Resumenes
+Cuanto falta?
