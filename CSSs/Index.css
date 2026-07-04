@@ -1,0 +1,113 @@
+/* paleta de colores  */ 
+
+:root {
+--bg:                    #071A16; /*--Fondo principal	Verde muy oscuro*/	
+--bg-secundario:         #0B241D; /*--Fondo secundario	Verde oscuro*/	
+--tarjeta:               #102C24; /*--Tarjetas Cards	Verde grisáceo*/	
+--sidebar-color:         #081D18; /*--Sidebar	Verde profundo*/	
+--bordes:                #1D4A3E; /*--Bordes	Verde oscuro*/	
+--Text-color:            #F5F5F5; /*--Texto principal	Blanco*/	
+--Text-secundario:       #A6B3AD; /*--Texto secundario	Gris claro*/	
+--Text-deshabilitado:    #68746F; /*--Texto deshabilitado	Gris oscuro*/	
+--Color-principal:       #FF7A00; /*--Naranja principal*/		
+--hover-naranja:         #FF922E; /*--Naranja hover*/		
+--naranja-oscuro:        #D86400; /*--Naranja oscuro pressed*/		
+--Exito:                 #22C55E; /*--Éxito*/		
+--Advertencia:           #FACC15; /*--Advertencia*/		
+--Error:                 #EF4444; /*--Error*/	
+--Informacion:           #3B82F6; /*--Información*/	 
+}
+
+body {
+    font-family: 'Geist Pixel', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+}
+
+a {
+    color: var(--Color-principal)
+}
+
+
+.titulo {
+    color: var(--Text-color); 
+    font-family: 'Geist Pixel', sans-serif; 
+
+}
+
+.subtitulo {
+    color: var(--Text-color);
+    font-family: 'Geist Pixel', sans-serif;
+}
+
+.container{
+    display:flex;
+    height:100vh;
+}
+
+.sidebar{
+    width:270px;
+    background:var(--bg-secundario);
+    display:flex;
+    flex-direction:column;
+    padding:25px;
+    border-right:5px solid rgba(255,255,255,.05);
+    font-family: 'Geist Pixel', sans-serif;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.nombre{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--Text-color);
+    font-family: 'Geist Pixel', sans-serif;
+}
+
+.menu{
+    width: 100%;
+    font-family: 'Geist Pixel', sans-serif;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li{
+    margin-bottom: 12px;
+}
+
+.menu a{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color: var(--Text-color);
+    border-radius: 10px;
+    transition: all .25s ease;
+}
+
+.menu a:hover{
+    background: var(--bordes);
+    transform: translateX(6px);
+}
+
+.menu a.active{
+    background: var(--Color-principal);
+    color: var(--Text-color);
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(255, 122, 0, .4);
+}
+
