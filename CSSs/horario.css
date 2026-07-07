@@ -27,6 +27,8 @@ body {
 
 /* Main */ 
 
+
+/* Tarjetas */ 
 .container{
     display: flex;
 }
@@ -46,6 +48,12 @@ body {
     display: flex;
     gap: 20px;
 }
+
+.titulo{
+    color: var(--Text-color);
+    font-size: 40px;
+}
+
 
 
 /* tarjeta 1 */
@@ -277,4 +285,95 @@ body {
     color: var(--Text-secundario);
     font-size: 15px;
     margin: 0;
+}
+
+
+/* Horario semanal */
+
+.horario-semanal{
+    margin-top: 30px;
+    background: #10241d;
+    border: 1px solid #2d4b43;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controles{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.vista-horario{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dias{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.mi-horario{
+    color: var(--Text-color);
+    font-size: 20px;
+}    
+
+.texto-ver{
+    color: var(--Text-color);
+    font-size: 16px;
+
+}
+
+.btn-vista{
+    color: var(--hover-naranja);
+    background: var(--tarjeta);
+    border: 2px solid var(--Color-principal);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+
+}
+
+.btn-vista:hover{
+    transform: scale(1.05);
+}
+
+
+.btn-flecha{
+    color: var(--hover-naranja);
+    background: var(--tarjeta);
+    border: 2px solid var(--Color-principal);
+    border-radius: 8px;
+    transform: all 0.3s ease;
+}
+
+.btn-flecha:hover{
+    transform: scale(1.05);
+}
+
+#fecha-actual{
+    color: var(--Text-secundario);
+    font-size: 16px;
+}
+
+.btn-agregar-bloque{
+    color: var(--hover-naranja);
+    background: var(--tarjeta);
+    border: 2px solid var(--Color-principal);
+    border-radius: 8px;
+    transform: all 0.3s ease;
+}
+
+.btn-agregar-bloque:hover{
+    transform: scale(1.05);
 }
